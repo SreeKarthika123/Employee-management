@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+
+    style 
+     include ../static/signin.css
+</head>
+<body> 
+    <h3>Enter Your Crendientials</h3>
+    <form action="/signin" method="POST">
+        <div>
+        <label for="email" id="email" name="email">E-Mail</label>
+        <span></span>
+        <input type="text" id="email" name="email" placeholder="Enter Your E-mail address">
+        </div>
+        <div>
+            <label for="password" id="password" name="password">Password</label>
+            <span></span>
+            <input type="password" id="password" name="password"placeholder="Enter Your Password">
+        </div>
+        <div>
+            <button id="r">Sign In</button>
+        </div>
+    </form>
+</body>
+</html>
